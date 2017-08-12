@@ -28,17 +28,7 @@
 		<ul>
 			<li>Demo realizada con JSF 2.2, Primefaces 5, Eclipse Kepler R2, base de datos
 				PostgreSQL 9.2 y EclipseLink 2.5 (JPA).</li>
-			<li>En la carpeta <b>bdd</b> dentro del proyecto se encuentra el
-				respaldo de la base de datos <b>facturacion</b> que fue utilizada en
-				esta demo.
-			</li>
 			
-			<li>Las <b>Entities</b> fueron generadas automaticamente y se
-				personalizo la entidad <b>FacturaCab</b>. En esta clase se adiciono
-				el parametro <b>cascade=CascadeType.ALL</b> en la relacion <b>@OneToMany</b>
-				con <b>FacturaDet</b> para poder insertar en cascada (cabecera y
-				detalles de factura) en una sola transaccion.
-			</li>
 		</ul>
 		</p:panel>
 		</h:panelGrid>
